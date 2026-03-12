@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghid despre Antreprenoriat Social | EcoVisio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="progress"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"></div>
+
+<!-- HEADER -->
+<header id="mainHeader">
+  <a href="#" class="logo">Eco<span>Visio</span></a>
+  <nav>
+    <a href="#definitie">Definiție</a>
+    <a href="#principii">Principii</a>
+    <a href="#sdg">ODD</a>
+    <a href="#ecosistem">Ecosistem</a>
+    <a href="#exemple">Exemple</a>
+    <a href="https://antreprenoriatsocial.md" target="_blank" class="nav-cta">Portal →</a>
+  </nav>
+  <div class="hamburger" id="hamburger" onclick="toggleMobileNav()">
+    <span></span><span></span><span></span>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#definitie" onclick="toggleMobileNav()">Definiție</a>
+  <a href="#principii" onclick="toggleMobileNav()">Principii</a>
+  <a href="#sdg" onclick="toggleMobileNav()">ODD</a>
+  <a href="#ecosistem" onclick="toggleMobileNav()">Ecosistem</a>
+  <a href="#exemple" onclick="toggleMobileNav()">Exemple</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-left">
+    <span class="hero-tag">Ghid Complet 2022</span>
+    <h1 class="hero-title">
+      Antreprenoriat
+      <em>Social</em>
+    </h1>
+    <p class="hero-desc">
+      Descoperă lumea Impact Business-ului — unde misiunea socială, inovația și modelul de business profitabil se întâlnesc pentru a crea schimbări reale în comunitate.
+    </p>
+    <div class="hero-actions">
+      <a href="#definitie" class="btn-primary">Explorează ghidul ↓</a>
+      <a href="#exemple" class="btn-outline">Vezi exemple →</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-right-inner">
+      <div class="float-shape"></div>
+      <div class="float-shape"></div>
+      <div class="hero-visual">
+        <div class="hero-stat">
+          <span class="hero-stat-num">2.8M</span>
+          <span class="hero-stat-label">organizații în Europa</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">13.6M</span>
+          <span class="hero-stat-label">locuri de muncă</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">6.3%</span>
+          <span class="hero-stat-label">din forța de muncă</span>
+        </div>
+        <div class="hero-quote">
+          „Everyone can be a Changemaker"
+          <br><small style="font-style:normal;font-size:0.75rem;opacity:0.6;">— Ashoka Foundation</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COUNTER BAR -->
+<div class="counter-section">
+  <div class="counters-grid">
+    <div class="counter-item reveal">
+      <span class="counter-num" data-target="50">0</span>
+      <span class="counter-label">ÎS de facto în Moldova</span>
+    </div>
+    <div class="counter-item reveal">
+      <span class="counter-num" data-target="17">0</span>
+      <span class="counter-label">Obiective de Dezvoltare Durabilă</span>
+    </div>
+    <div class="counter-item reveal">
+      <span class="counter-num" data-target="80">0</span>
+      <span class="counter-label">% venit reinvestit în impact</span>
+    </div>
+    <div class="counter-item reveal">
+      <span class="counter-num" data-target="2006">0</span>
+      <span class="counter-label">Nobel — Muhammad Yunus</span>
+    </div>
+  </div>
+</div>
+
+<!-- DEFINITION SECTION -->
+<section class="definition-section" id="definitie">
+  <div class="definition-grid reveal">
+    <div>
+      <p class="definition-label">Ce este</p>
+      <h2 class="definition-text">Un model de business cu misiune socială și impact</h2>
+      <p class="definition-body">
+        Antreprenoriatul social este o nouă formă a capitalismului, menită să satisfacă cele mai imperioase necesități ale umanității. Venitul afacerilor se reinvestește pentru a susține scopuri sociale, a crea piețe pentru nevoile nesatisfăcute și a oferi locuri de muncă pentru grupuri vulnerabile.
+      </p>
+    </div>
+    <div class="definition-pillars">
+      <div class="pillar">
+        <span class="pillar-num">01</span>
+        <div class="pillar-content">
+          <h4>Misiunea Socială</h4>
+          <p>Scopul de bază este crearea impactului social, nu obținerea venitului pentru proprietari</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-num">02</span>
+        <div class="pillar-content">
+          <h4>Activitate Economică</h4>
+          <p>Produse și servicii oferite pieței în manieră antreprenorială și inovativă</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-num">03</span>
+        <div class="pillar-content">
+          <h4>Administrare Democratică</h4>
+          <p>Transparentă, justă, incluzivă — cu implicarea angajaților și stakeholderilor</p>
+        </div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-num">04</span>
+        <div class="pillar-content">
+          <h4>Inovația Socială</h4>
+          <p>Soluții noi pentru probleme sociale — produse, servicii sau modele noi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<div class="quote-section">
+  <div class="quote-inner reveal">
+    <p class="quote-text">
+      „Antreprenorul social modifică productivitatea întregii societăți — el este conducătorul schimbărilor, nu doar al resurselor economice."
+    </p>
+    <span class="quote-attr">Peter Drucker, Theorist Management</span>
+  </div>
+</div>
+
+<!-- PRINCIPLES SECTION -->
+<section class="principles-section" id="principii">
+  <div class="principles-header reveal">
+    <div>
+      <p class="section-label">Valori & Criterii</p>
+      <h2 class="section-title">Principiile Antreprenoriatului Social</h2>
+    </div>
+    <p class="principles-intro">
+      Antreprenoriatul social ca tip de activitate este, în primul rând, despre valori. Aceste principii definesc „regulile" în baza cărora se creează, inventează și realizează întreprinderile sociale.
+    </p>
+  </div>
+  <div class="principles-grid">
+    <div class="principle-card reveal">
+      <span class="principle-icon">🎯</span>
+      <span class="principle-num">01 / Problemă</span>
+      <h3 class="principle-title">Rezolvarea unei probleme concrete</h3>
+      <p class="principle-text">Identifică și abordează o problemă reală a societății sau a mediului înconjurător, cu impact măsurabil.</p>
+    </div>
+    <div class="principle-card reveal">
+      <span class="principle-icon">🔄</span>
+      <span class="principle-num">02 / Venit</span>
+      <h3 class="principle-title">Reinvestirea venitului</h3>
+      <p class="principle-text">Cel puțin 80–90% din venit se reinvestește în misiunea socială, nu se distribuie proprietarilor.</p>
+    </div>
+    <div class="principle-card reveal">
+      <span class="principle-icon">💡</span>
+      <span class="principle-num">03 / Inovație</span>
+      <h3 class="principle-title">Inovație socială autentică</h3>
+      <p class="principle-text">Soluții noi pentru context local — chiar dacă preluate din altă parte, trebuie să fie noi pentru comunitate.</p>
+    </div>
+    <div class="principle-card reveal">
+      <span class="principle-icon">💰</span>
+      <span class="principle-num">04 / Sustenabilitate</span>
+      <h3 class="principle-title">Majoritarul venitului din vânzări</h3>
+      <p class="principle-text">Cel puțin 60% din venit provine din activitate comercială, nu din granturi sau donații.</p>
+    </div>
+    <div class="principle-card reveal">
+      <span class="principle-icon">🤝</span>
+      <span class="principle-num">05 / Colaborare</span>
+      <h3 class="principle-title">Cooperare, nu concurență</h3>
+      <p class="principle-text">Contribuie și încurajează parteneriatul și colaborarea între actorii ecosistemului.</p>
+    </div>
+    <div class="principle-card reveal">
+      <span class="principle-icon">👥</span>
+      <span class="principle-num">06 / Incluziune</span>
+      <h3 class="principle-title">Locuri de muncă pentru grupuri vulnerabile</h3>
+      <p class="principle-text">Crează oportunități de angajare și produse potrivite pentru persoanele din grupuri vulnerabile.</p>
+    </div>
+    <div class="principle-card reveal">
+      <span class="principle-icon">🌍</span>
+      <span class="principle-num">07 / ODD</span>
+      <h3 class="principle-title">Focus pe ODD</h3>
+      <p class="principle-text">Contribuie la cel puțin un Obiectiv de Dezvoltare Durabilă din agenda 2030 a ONU.</p>
+    </div>
+    <div class="principle-card reveal">
+      <span class="principle-icon">⚖️</span>
+      <span class="principle-num">08 / Etică</span>
+      <h3 class="principle-title">Etică și drepturile omului</h3>
+      <p class="principle-text">Integrează etica și drepturile omului în activitate, dezvoltă echipa și consumatorii constant.</p>
+    </div>
+    <div class="principle-card reveal">
+      <span class="principle-icon">📊</span>
+      <span class="principle-num">09 / Impact</span>
+      <h3 class="principle-title">Model economic profitabil</h3>
+      <p class="principle-text">Sustenabilitate financiară demonstrabilă — impactul social se măsoară și se raportează transparent.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SDG SECTION -->
+<section class="sdg-section" id="sdg">
+  <div class="sdg-header">
+    <p class="section-label">Agenda 2030</p>
+    <h2 class="section-title">Obiectivele de Dezvoltare Durabilă</h2>
+  </div>
+  <div class="sdg-grid reveal">
+    <div class="sdg-item sdg-1"><span class="sdg-num">1</span>Fără Sărăcie</div>
+    <div class="sdg-item sdg-2"><span class="sdg-num">2</span>Zero Foame</div>
+    <div class="sdg-item sdg-3"><span class="sdg-num">3</span>Sănătate</div>
+    <div class="sdg-item sdg-4"><span class="sdg-num">4</span>Educație</div>
+    <div class="sdg-item sdg-5"><span class="sdg-num">5</span>Egalitate de Gen</div>
+    <div class="sdg-item sdg-6"><span class="sdg-num">6</span>Apă Curată</div>
+    <div class="sdg-item sdg-7"><span class="sdg-num">7</span>Energie Curată</div>
+    <div class="sdg-item sdg-8"><span class="sdg-num">8</span>Muncă Decentă</div>
+    <div class="sdg-item sdg-9"><span class="sdg-num">9</span>Industrie & Inovație</div>
+    <div class="sdg-item sdg-10"><span class="sdg-num">10</span>Inegalități Reduse</div>
+    <div class="sdg-item sdg-11"><span class="sdg-num">11</span>Orașe Durabile</div>
+    <div class="sdg-item sdg-12"><span class="sdg-num">12</span>Consum Responsabil</div>
+    <div class="sdg-item sdg-13"><span class="sdg-num">13</span>Acțiunea Climei</div>
+    <div class="sdg-item sdg-14"><span class="sdg-num">14</span>Viața Sub Apă</div>
+    <div class="sdg-item sdg-15"><span class="sdg-num">15</span>Viața pe Pământ</div>
+    <div class="sdg-item sdg-16"><span class="sdg-num">16</span>Pace & Justiție</div>
+    <div class="sdg-item sdg-17"><span class="sdg-num">17</span>Parteneriate</div>
+  </div>
+  <p class="sdg-note reveal">
+    Scopurile în domeniul Dezvoltării Durabile servesc drept sursă inițială de inspirație pentru rezolvarea problemelor sociale. Fiecare întreprindere socială contribuie la atingerea unuia sau mai multor ODD-uri, asigurând o abordare holistică — economică, socială și ecologică.
+  </p>
+</section>
+
+<!-- MODELS SECTION -->
+<section class="models-section">
+  <p class="section-label reveal">Tipologii</p>
+  <h2 class="section-title reveal">Tipuri de Modele Economice</h2>
+  <div class="models-grid">
+    <div class="model-card reveal">
+      <span class="model-number">1</span>
+      <h3 class="model-title">Modelul Inovațional</h3>
+      <p class="model-text">Activitatea aduce impact social și generează venit de sinestătător. Impactul este integrat direct în produsul sau serviciul oferit.</p>
+    </div>
+    <div class="model-card reveal">
+      <span class="model-number">2</span>
+      <h3 class="model-title">Modelul cu Servicii Integrate</h3>
+      <p class="model-text">Modelul de business conține servicii integrate care generează o valoare adițională din punct de vedere al impactului social.</p>
+    </div>
+    <div class="model-card reveal">
+      <span class="model-number">3</span>
+      <h3 class="model-title">Modelul de Generare a Venitului</h3>
+      <p class="model-text">Modelul economic deține venit, iar acest venit se utilizează pentru un alt tip de activitate care crează schimbări sociale.</p>
+    </div>
+  </div>
+</section>
+
+<!-- INNOVATION 70-20-10 -->
+<section class="innovation-section">
+  <div class="innovation-grid">
+    <div class="innovation-text reveal">
+      <p class="section-label">Regula Inovației</p>
+      <h2 class="section-title">Regula 70 — 20 — 10</h2>
+      <p>Cum să creezi inovație? Echipele inovative alocă resursele în mod strategic pentru a menține echilibrul între activitatea curentă și explorarea noului.</p>
+      <p>Aceasta nu este o rețetă rigidă, ci un cadru de gândire care ajută antreprenorii să evite „Teatrul Inovației" — situația în care inițiativele par inovatoare dar au o importanță nesemnificativă.</p>
+    </div>
+    <div class="rule-70-container reveal">
+      <div>
+        <div class="rule-bar">
+          <span class="rule-bar-label" style="color:var(--crimson)">70%</span>
+          <div class="rule-bar-track">
+            <div class="rule-bar-fill fill-70" id="bar70"></div>
+          </div>
+        </div>
+        <p class="rule-bar-desc">Îmbunătățirea produselor și serviciilor curente — activitate verificată, risc scăzut</p>
+      </div>
+      <div>
+        <div class="rule-bar">
+          <span class="rule-bar-label" style="color:var(--gold)">20%</span>
+          <div class="rule-bar-track">
+            <div class="rule-bar-fill fill-20" id="bar20"></div>
+          </div>
+        </div>
+        <p class="rule-bar-desc">Explorarea piețelor și oportunităților aferente — diversificarea portofoliului</p>
+      </div>
+      <div>
+        <div class="rule-bar">
+          <span class="rule-bar-label" style="color:var(--green-accent)">10%</span>
+          <div class="rule-bar-track">
+            <div class="rule-bar-fill fill-10" id="bar10"></div>
+          </div>
+        </div>
+        <p class="rule-bar-desc">Inovații transformaționale — descoperiri pentru piețe care încă nu există</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ECOSYSTEM -->
+<section class="ecosystem-section" id="ecosistem">
+  <p class="section-label reveal">Rețea & Comunitate</p>
+  <h2 class="section-title reveal">Ecosistemul Antreprenoriatului Social</h2>
+  <div class="ecosystem-grid">
+    <div class="ecosystem-pillars reveal">
+      <div class="eco-pillar">
+        <div class="eco-pillar-icon">🌱</div>
+        <div>
+          <h4>Abilitatea de Autodezvoltare</h4>
+          <p>Implicarea în activitatea civică, rețelele și mecanismele de susținere reciprocă</p>
+        </div>
+      </div>
+      <div class="eco-pillar">
+        <div class="eco-pillar-icon">👁</div>
+        <div>
+          <h4>Vizibilitate & Recunoaștere</h4>
+          <p>Recunoașterea politică, juridică, privată și autorecunoașterea în ecosistem</p>
+        </div>
+      </div>
+      <div class="eco-pillar">
+        <div class="eco-pillar-icon">💵</div>
+        <div>
+          <h4>Resurse</h4>
+          <p>Resurse nerambursabile, care aduc venit, rambursabile și privilegii fiscale</p>
+        </div>
+      </div>
+      <div class="eco-pillar">
+        <div class="eco-pillar-icon">📚</div>
+        <div>
+          <h4>Cercetare & Educație</h4>
+          <p>Studii de caz, instruire pentru ÎS și dezvoltarea aptitudinilor antreprenoriale</p>
+        </div>
+      </div>
+    </div>
+    <div class="reveal">
+      <h3 style="font-family:var(--font-display);font-size:1.2rem;margin-bottom:1.5rem;font-weight:700;">Stakeholderi ai Ecosistemului</h3>
+      <div class="stakeholders-cloud">
+        <span class="stakeholder-tag featured">Antreprenori sociali</span>
+        <span class="stakeholder-tag">Investitori de impact</span>
+        <span class="stakeholder-tag featured">EcoVisio</span>
+        <span class="stakeholder-tag">Business local mic</span>
+        <span class="stakeholder-tag">Business mare</span>
+        <span class="stakeholder-tag featured">PNUD Moldova</span>
+        <span class="stakeholder-tag">APL / APC</span>
+        <span class="stakeholder-tag">Universități</span>
+        <span class="stakeholder-tag">HUB-uri regionale</span>
+        <span class="stakeholder-tag">Donatori internaționali</span>
+        <span class="stakeholder-tag">Green Business</span>
+        <span class="stakeholder-tag featured">Beneficiari</span>
+        <span class="stakeholder-tag">Clienți & Cumpărători</span>
+        <span class="stakeholder-tag">Specialiști internaționali</span>
+        <span class="stakeholder-tag">Industrii creative</span>
+        <span class="stakeholder-tag">ONG-uri</span>
+        <span class="stakeholder-tag featured">Asociația AS</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXAMPLES -->
+<section class="examples-section" id="exemple">
+  <p class="section-label reveal">Inspirație</p>
+  <h2 class="section-title reveal">Exemple din Europa</h2>
+  <div class="examples-scroller">
+    <div class="example-card">
+      <p class="example-country">Polonia</p>
+      <h3 class="example-title">Cooperativa Socială de Servicii</h3>
+      <p class="example-text">Alcătuită din două asociații, angajează pe termen lung persoane fără loc de muncă și cu grad de handicap. Oferă servicii de catering, construcții meșteșugărești și integrare în câmpul muncii.</p>
+    </div>
+    <div class="example-card">
+      <p class="example-country">Țările de Jos</p>
+      <h3 class="example-title">Literacy Tech — Alfabetizare Digitală</h3>
+      <p class="example-text">Companie care învață copiii să citească prin instrumente digitale inovative bazate pe joacă, adaptate copiilor hiperactivi sau cu autism, dar utilizabile și pentru adulți analfabeți sau imigranți.</p>
+    </div>
+    <div class="example-card">
+      <p class="example-country">Franța</p>
+      <h3 class="example-title">Car Wash Fără Apă</h3>
+      <p class="example-text">Lansat în 2004, concept inovativ de spălare ecologică a automobilelor cu produse biodegradabile, angajând personal necalificat din grupuri vulnerabile pentru reintegrare în piața muncii.</p>
+    </div>
+    <div class="example-card">
+      <p class="example-country">România</p>
+      <h3 class="example-title">Media Accesibilă pentru Nevăzători</h3>
+      <p class="example-text">Activ din 1996, cu 5 angajați și 5 voluntari, adaptează mass-media în limba română pentru ~90,000 persoane nevăzătoare — cărți audio, filme și conținut digital accesibil.</p>
+    </div>
+    <div class="example-card">
+      <p class="example-country">Ungaria</p>
+      <h3 class="example-title">Restaurant cu Personal cu Necesități Speciale</h3>
+      <p class="example-text">Fond care a deschis un restaurant cu 40 de angajați cu necesități speciale, oferind educație, grijă pentru copii și tranziție spre locuri de muncă stabile pe termen lung.</p>
+    </div>
+    <div class="example-card">
+      <p class="example-country">Bangladesh</p>
+      <h3 class="example-title">Grameen Bank — Microcreditare</h3>
+      <p class="example-text">Fondată de Muhammad Yunus (Premiul Nobel 2006), a revoluționat accesul la capital pentru persoane fără garanții din țări în curs de dezvoltare din Asia, Africa și America Latină.</p>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO SECTION -->
+<section class="video-section">
+  <div class="video-grid">
+    <div class="video-text reveal">
+      <p class="section-label">Aprofundare</p>
+      <h2 class="section-title">Vizionează & Înțelege</h2>
+      <p>Ted Talk-ul fondator al mișcării de antreprenoriat social — Muhammad Yunus explică cum businessul poate fi o forță pentru bine, nu doar pentru profit.</p>
+      <a href="https://www.ted.com/talks/muhammad_yunus_social_business" target="_blank" class="btn-white">Explorează TED Talks →</a>
+    </div>
+    <div class="video-wrapper reveal">
+      <iframe src="https://www.youtube.com/embed/K_0_xCBRdss" title="Social Entrepreneurship Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-section">
+  <p class="section-label">Începe Călătoria</p>
+  <h2 class="cta-title">Ești pregătit să faci<br>diferența?</h2>
+  <p class="cta-sub">Pornește inovația și contribuie cu schimbări pozitive pentru comunitate și mediu. Crează impact prin antreprenoriat responsabil!</p>
+  <div class="cta-actions">
+    <a href="https://antreprenoriatsocial.md" target="_blank" class="btn-white">Portal Antreprenoriat Social</a>
+    <a href="https://www.ecovisio.org/" target="_blank" class="btn-ghost">Despre EcoVisio →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="logo">Eco<span>Visio</span></a>
+      <p>Ghid despre Antreprenoriat Social elaborat de Asociația Obștească EcoVisio în parteneriat cu Agenția pentru Inovare și Dezvoltare și Asociația Antreprenoriatului Social.</p>
+      <p style="margin-bottom:1rem;font-size:0.78rem;opacity:0.5;">Cu susținerea financiară a Suediei și Marii Britanii în cadrul proiectului AdTrade, implementat de PNUD Moldova.</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/ecovisio.moldova" target="_blank" class="social-link">fb</a>
+        <a href="https://www.instagram.com/ecovisio" target="_blank" class="social-link">ig</a>
+        <a href="https://antreprenoriatsocial.md" target="_blank" class="social-link">↗</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Secțiuni</h5>
+      <ul>
+        <li><a href="#definitie">Definiție</a></li>
+        <li><a href="#principii">Principii</a></li>
+        <li><a href="#sdg">ODD Agenda 2030</a></li>
+        <li><a href="#ecosistem">Ecosistem</a></li>
+        <li><a href="#exemple">Exemple</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Resurse</h5>
+      <ul>
+        <li><a href="https://antreprenoriatsocial.md" target="_blank">Portal AS Moldova</a></li>
+        <li><a href="https://www.ecovisio.org/" target="_blank">EcoVisio.org</a></li>
+        <li><a href="https://iarmareco.md/" target="_blank">IarmarEco.md</a></li>
+        <li><a href="https://social.innovation.md" target="_blank">Social Innovation MD</a></li>
+        <li><a href="https://betterentrepreneurship.eu" target="_blank">Better Entrepreneurship</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <ul>
+        <li><a href="mailto:info@ecovisio.org">info@ecovisio.org</a></li>
+        <li><a href="mailto:tiras.socialplatform@gmail.com">tiras.socialplatform@gmail.com</a></li>
+        <li><a href="#">Chișinău, Moldova</a></li>
+        <li><a href="#">2022 © Toate drepturile rezervate</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2022 PNUD Moldova — EcoVisio. Autori: Idrisova Aina. Traducere: Cușnir Iana.</p>
+    <div class="footer-legal">
+      <a href="#">Politica de confidențialitate</a>
+      <a href="#">Termeni de utilizare</a>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script src="main.js"></script>
+</body>
+</html>
